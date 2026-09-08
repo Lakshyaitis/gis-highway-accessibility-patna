@@ -360,20 +360,20 @@ foreach ($b in $bufRadii) {
         $seg = $majorHwySegments[$s]
         $lon1 = $seg[0]; $lat1 = $seg[1]
         $lon2 = $seg[2]; $lat2 = $seg[3]
-        $dx = ($lon2 - $lon1) * $m_lon
-        $dy = ($lat2 - $lat1) * $m_lat
+        $dx = ($lon2 - $lon1) * $m_per_lon
+        $dy = ($lat2 - $lat1) * $m_per_lat
         $hyp = [Math]::Sqrt($dx*$dx + $dy*$dy)
         if ($hyp -eq 0) { continue }
         $nx = (-$dy / $hyp) * $dlon
         $ny = ($dx / $hyp) * $dlat
-        $poly = @(
+        $ring = @(
             @([Math]::Round($lon1 + $nx, 6), [Math]::Round($lat1 + $ny, 6)),
             @([Math]::Round($lon2 + $nx, 6), [Math]::Round($lat2 + $ny, 6)),
             @([Math]::Round($lon2 - $nx, 6), [Math]::Round($lat2 - $ny, 6)),
             @([Math]::Round($lon1 - $nx, 6), [Math]::Round($lat1 - $ny, 6)),
             @([Math]::Round($lon1 + $nx, 6), [Math]::Round($lat1 + $ny, 6))
         )
-        $polys.Add($poly)
+        $polys.Add(@($ring))
     }
 
     $bufFeatures.Add([ordered]@{

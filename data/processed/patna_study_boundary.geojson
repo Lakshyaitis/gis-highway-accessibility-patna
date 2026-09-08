@@ -1,0 +1,40 @@
+﻿{
+    "type":  "FeatureCollection",
+    "features":  [
+                     {
+                         "type":  "Feature",
+                         "properties":  {
+                                            "area_name":  "Patna Highway Corridor Study Area",
+                                            "state":  "Bihar",
+                                            "district":  "Patna",
+                                            "approx_area_sq_km":  215.4,
+                                            "description":  "Bounding envelope covering NH-30, Ganga Path, Bailey Road, and Southern Bypass corridors"
+                                        },
+                         "geometry":  {
+                                          "type":  "Polygon",
+                                          "coordinates":  [
+                                                              [
+                                                                  85.035,
+                                                                  25.55
+                                                              ],
+                                                              [
+                                                                  85.245,
+                                                                  25.55
+                                                              ],
+                                                              [
+                                                                  85.245,
+                                                                  25.655
+                                                              ],
+                                                              [
+                                                                  85.035,
+                                                                  25.655
+                                                              ],
+                                                              [
+                                                                  85.035,
+                                                                  25.55
+                                                              ]
+                                                          ]
+                                      }
+                     }
+                 ]
+}

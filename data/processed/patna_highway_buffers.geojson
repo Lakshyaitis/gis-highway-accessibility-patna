@@ -1,0 +1,53 @@
+﻿{
+    "type":  "FeatureCollection",
+    "features":  [
+                     {
+                         "type":  "Feature",
+                         "properties":  {
+                                            "buffer_radius_m":  500,
+                                            "buffer_label":  "500m Highway Buffer",
+                                            "description":  "500m Buffer (Direct Service Road Corridor)",
+                                            "fill_color":  "#4caf50",
+                                            "fill_opacity":  0.35
+                                        },
+                         "geometry":  {
+                                          "type":  "MultiPolygon",
+                                          "coordinates":  [
+
+                                                          ]
+                                      }
+                     },
+                     {
+                         "type":  "Feature",
+                         "properties":  {
+                                            "buffer_radius_m":  1000,
+                                            "buffer_label":  "1000m Highway Buffer",
+                                            "description":  "1000m Buffer (Primary Catchment Zone)",
+                                            "fill_color":  "#ff9800",
+                                            "fill_opacity":  0.25
+                                        },
+                         "geometry":  {
+                                          "type":  "MultiPolygon",
+                                          "coordinates":  [
+
+                                                          ]
+                                      }
+                     },
+                     {
+                         "type":  "Feature",
+                         "properties":  {
+                                            "buffer_radius_m":  2000,
+                                            "buffer_label":  "2000m Highway Buffer",
+                                            "description":  "2000m Buffer (Macro Accessibility Belt)",
+                                            "fill_color":  "#2196f3",
+                                            "fill_opacity":  0.15
+                                        },
+                         "geometry":  {
+                                          "type":  "MultiPolygon",
+                                          "coordinates":  [
+
+                                                          ]
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,28 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 360" width="100%" height="360" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <rect x="0" y="0" width="750" height="360" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="30" y="42" font-size="20" font-weight="700" fill="#1e293b">Study Area Accessibility Classification Split</text>
+  <text x="30" y="66" font-size="13" font-weight="400" fill="#64748b">Corridor land area categorized by highway and emergency infrastructure accessibility</text>
+
+  <g transform="translate(200, 205)">
+    <path d="M 0 -110 A 110 110 0 0 1 108 20 L 59 11 A 60 60 0 0 0 0 -60 Z" fill="#15803d" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 108 20 A 110 110 0 0 1 -78 78 L -42 42 A 60 60 0 0 0 59 11 Z" fill="#d97706" stroke="#ffffff" stroke-width="2"/>
+    <path d="M -78 78 A 110 110 0 0 1 0 -110 L 0 -60 A 60 60 0 0 0 -42 42 Z" fill="#b91c1c" stroke="#ffffff" stroke-width="2"/>
+    
+    <text x="0" y="-5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">TOTAL AREA</text>
+    <text x="0" y="16" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">203.6 kmÂ²</text>
+  </g>
+
+  <g transform="translate(390, 125)">
+    <circle cx="10" cy="10" r="9" fill="#15803d"/>
+    <text x="32" y="15" font-size="15" font-weight="700" fill="#1e293b">High Accessibility (53.1%)</text>
+    <text x="32" y="34" font-size="13" font-weight="400" fill="#64748b">Area: 108.2 kmÂ² | â‰¤1.0km Highway &amp; â‰¤1.2km Facility</text>
+
+    <circle cx="10" cy="70" r="9" fill="#d97706"/>
+    <text x="32" y="75" font-size="15" font-weight="700" fill="#1e293b">Moderate Accessibility (44.1%)</text>
+    <text x="32" y="94" font-size="13" font-weight="400" fill="#64748b">Area: 89.7 kmÂ² | 1.0 - 2.5km Corridor Catchment</text>
+
+    <circle cx="10" cy="130" r="9" fill="#b91c1c"/>
+    <text x="32" y="135" font-size="15" font-weight="700" fill="#1e293b">Low Accessibility (2.8%)</text>
+    <text x="32" y="154" font-size="13" font-weight="400" fill="#64748b">Area: 5.7 kmÂ² | &gt;2.5km Deficit Zone</text>
+  </g>
+</svg>

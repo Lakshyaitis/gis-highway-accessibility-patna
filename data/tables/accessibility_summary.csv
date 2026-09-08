@@ -1,0 +1,4 @@
+﻿"Accessibility_Classification","Cell_Count","Total_Area_sq_km","Percentage_Area","Highway_Proximity_Criteria","Facility_Proximity_Criteria","Planning_Priority"
+"High Accessibility","152","108.22","53.1%","< 1.0 km","< 1.2 km","Maintenance & Access Management"
+"Moderate Accessibility","126","89.71","44.1%","1.0 - 2.5 km","1.0 - 2.5 km","Feeder Road Upgradation & Bus Stop Placement"
+"Low Accessibility","8","5.7","2.8%","> 2.5 km","> 2.5 km","New Arterial Highway Linkages & Trauma Care Placement"
